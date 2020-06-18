@@ -1,0 +1,30 @@
+{
+  "name": "express-api-starter",
+  "version": "1.0.0",
+  "description": "express api starter kit",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "serve": "node index.js"
+  },
+  "keywords": [
+    "static",
+    "http",
+    "server",
+    "express",
+    "api"
+  ],
+  "author": "Paolo Bavaro",
+  "license": "MIT",
+  "engines": {
+    "node": "^12.16.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
